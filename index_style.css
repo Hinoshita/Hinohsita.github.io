@@ -1,0 +1,42 @@
+
+.link {
+    text-align: right;
+}
+
+.search{
+    text-align: center;
+    margin-top: 180px 
+}
+
+
+#query {
+    width:500px;
+    height:30px;
+    border: 1px solid lightgray;
+    border-radius:30px;
+    box-shadow:  0 0 1px rgb(161, 176, 190);
+    padding: 1px 10px;
+}
+
+#query:hover {
+    box-shadow:  0 0 6px rgb(161, 176, 190);
+	outline-style:none;			
+}
+
+#query:focus {
+	outline: none;	
+}
+
+.button {
+    border: none;
+    padding: 8px 15px;
+    border-radius:4px;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 5px 2px #ccccee;	
+}
+
+.button:focus {
+	outline: none;	
+}
